@@ -68,9 +68,9 @@ public struct SectionHeaderStyle {
     public var shouldTitleCenterVertically: Bool = true
 
     /// title label font, default is `UIFont.systemFont(ofSize: 14)`
-    public var font: UIFont = UIFont.systemFont(ofSize: 14)
+    public var font: UIFont = UIFont.systemFont(ofSize: 16)
     /// title label textColor, default is A6A6A6
-    public var textColor: UIColor = UIColor(red: 166.0/255.0, green: 166.0/255.0, blue: 166.0/255.0, alpha: 1.0)
+    public var textColor: UIColor = .systemBlue ///UIColor(red: 166.0/255.0, green: 166.0/255.0, blue: 166.0/255.0, alpha: 1.0)
     /// backgroundColor for header, default is F2F2F2
     public var backgroundColor: UIColor = UIColor(red: 242.0/255.0, green: 242.0/255.0, blue: 242.0/255.0, alpha: 1.0)
 
